@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const authRoutes = require('./routes/authRoutes');
 const documentRoutes = require('./routes/documentRoutes');
 const cookieParser = require('cookie-parser');
-const Document = require('./modelsl/Documents');
+const Document = require('./models/Documents');
 const cors = require('cors');
 
 //socket connection
